@@ -8,9 +8,7 @@ class Dog
   end
 
   def self.all
-    @@all.each do |dog|
-      return dog
-    end
+    @@all
   end
 
   def self.print_all
